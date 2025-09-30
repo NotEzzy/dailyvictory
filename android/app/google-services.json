@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "544777007917",
+    "project_id": "dailyvictory-46397",
+    "storage_bucket": "dailyvictory-46397.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:544777007917:android:c2a2fa8464b70d096cd9a4",
+        "android_client_info": {
+          "package_name": "com.app.dailyvictory"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyACU28r-WhcIN6dZv0gAXMAsQdrAxUh1x0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

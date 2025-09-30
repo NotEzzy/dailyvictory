@@ -1,0 +1,76 @@
+name: dailyvictory
+description: "A productivity app to help users focus on one task at a time, manage daily habits and goals, and stay motivated."
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+3  # Format is version_name+version_code, where version_code must be incremented for each Play Store update
+
+environment:
+  sdk: '>=3.2.3 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  
+  # State management
+  flutter_riverpod: ^2.4.9
+  
+  # Firebase
+  firebase_core: ^2.24.2
+  firebase_auth: ^4.15.3
+  cloud_firestore: ^4.13.6
+  firebase_storage: ^11.5.6
+  firebase_analytics: ^10.8.0
+  
+  # UI components
+  flutter_svg: ^2.0.9
+  google_fonts: ^6.2.1
+  flutter_animate: ^4.5.0
+  lottie: ^3.1.0
+  
+  # Utilities
+  intl: ^0.19.0
+  shared_preferences: ^2.2.2
+  uuid: ^4.2.2
+  logger: ^2.0.2+1
+  path: ^1.8.3
+  
+  # Charts
+  fl_chart: ^0.65.0
+
+  flutter_launcher_icons: ^0.13.1
+  flutter_native_splash: ^2.4.6
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^3.0.1
+  
+
+flutter:
+
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/images/
+    - assets/animations/
+    - assets/icons/
+   
+
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/images/app_icon.png"
+  min_sdk_android: 21
+  remove_alpha_ios: true
+ 
+
+flutter_native_splash:
+  color: "#FFFFFF"
+  image: assets/images/dv-logo.png
+  android: true
+  ios: true
+
